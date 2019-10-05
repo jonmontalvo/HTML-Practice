@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Ruda', sans-serif; 
+}
+
+h1{
+    color: peru;
+    font-family: 'Ruda', sans-serif;
+}
+
+h2 {
+    color: peru;
+    font-family: 'Ruda', sans-serif;
+}
+
+h3 {
+    color: peru;
+    font-family: 'Ruda', sans-serif;
+}
+
+h4 {
+    color: peru;
+    font-family: 'Ruda', sans-serif;
+}
+
+h5 {
+    color: peru;
+    font-family: 'Ruda', sans-serif;
+}
+
+h6 {
+    color: peru;
+    font-family: 'Ruda', sans-serif;
+    font-size:1.5em;
+    margin:0;
+}
+
+p { 
+    font-family: 'Ruda', sans-serif;
+    font-size:1em;
+
+}
