@@ -4,11 +4,18 @@ body {
 }
 
 div {
-    border: 1px whitesmoke solid;
+    /* border: 1px whitesmoke solid; */
 }
 
 header {
-    background-color:gray;
+    background-color: white;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    height: 530px;
 }
 
 p {
@@ -17,13 +24,41 @@ p {
 }
 
 .col {
-    float: left;
-    padding: 15px;
+    /* float: left; */
+    /* padding: 15px; */
     /* width: 30%; */
+}
+
+ul{
+    list-style-type: none;
+    margine: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding: 50px;
+}
+
+li a {
+    display: inline-block;
+    padding: 4px 8px;
 }
 
 a {
     padding: 0px;
+}
+
+.bkcolorgray{
+    background-color: #f7f7f7;
+}
+
+.bksizelarge{
+    height: 750px;
+}
+
+footer{
+    height: 850px;
 }
 
 .imgrounded {
@@ -36,12 +71,16 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    display: block;
+    margin: 16px auto;
   }
 
 .col-1 {width: 8.33%;}
-.col-2 {width: 14%;}
+.col-2 {width: calc(100%/6);}
 .col-3 {width: 25%;}
-.col-4 {width: 30%;}
+.col-4 {
+    width: calc(100%/3);
+}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
