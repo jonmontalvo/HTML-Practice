@@ -12,8 +12,10 @@
 </head>
 <body>
     <!--Header Starts-->
-        <header>
-            <div>Logo</div>
+        <header class="row">
+            <div class="col">
+                <a href="#"><img class="logoevernote" src="images/blank.gif"></a>
+            </div>
             <div>
                 <ul>
                     <li><a href="#">Plans</a></li>
@@ -22,19 +24,22 @@
                     <li><a href="#">About Us</a></li>
                 </ul>
             </div>
-            <div>Login/Sign up</div>
+            <div class="col">
+                <a href="#">Login</a> or
+                <a href="#" class="button-outline">Sign Up</a>
+            </div>
          </header>
 
     <!--Header End-->
     
     <!-- Main Starts -->
-        <main>
-            <div>
+        <main class="row">
+            <div class="col col-8">
                 <h1>Designing Cool Shit is my Job!</h1>
                 <h6>Creativity is our business. Let's make you look good on the web.</h6> 
                 <button>Sign Up</button>   
             </div>
-            <div>
+            <div class="col col-4">
                 <img src="Images/undraw.png" height="200">
             </div>
         </main>
@@ -43,22 +48,23 @@
     
     <!-- Feature1 Sart -->
         <div class="bkcolorgray bksizelarge">
-            <div ><!-- Row -->
+            <div class="txtcenter"><!-- Row -->
                 <div class="imgrounded"></div>
-                <h1 align="center">Headline</h1>
+                <h1>Headline</h1>
+                <p>This is a quick one line body of text to tell you how much you suck.</p>
             </div> 
         
-            <div class="row">
+            <div class="row txtjustify">
                 <div class="col col-4">
-                    <p>Col 1</p>
+                    <p>This is a quick one line body of text to tell you how much you suck.</p>
                     <p><a href="https://www.duckduckgo.com">SEARCH</a></p>
                 </div>
                 <div class="col col-4">
-                    <p>Col 2</p>
+                    <p>This is a quick one line body of text to tell you how much you suck.</p>
                     <p><a href="https://www.duckduckgo.com">SEARCH</a></p>
                 </div>
                 <div class="col col-4">
-                    <p>Col 3</p>
+                    <p>This is a quick one line body of text to tell you how much you suck.</p>
                     <p><a href="https://www.duckduckgo.com">SEARCH</a></p>
                 </div>
             </div> <!-- Row -->
@@ -66,19 +72,25 @@
     <!-- Feature1 Ends -->
 
     <!-- Feature2 Sart -->
-        <div>
-            <div>
+        <div class="bksizelarge row" id="feature2">
+            <div class="col col-8">
                 <h2>Remember Everything</h2>
+                <p>A single place for your notes, ideas, lists and reminders.</p>
+                <p>Evernote Basic <i class="fas fa-arrow-right"></i></p>
             </div>
-            <div>Image</div>
+            <div class="col col-4">
+                <img src="Images/undraw.png" height="200">
+            </div>
         </div>
 
     <!-- Feature2 Ends -->
 
 
         <!-- Footer Starts -->
-            <footer>
-                <div>Logo</div> <!-- Row -->
+            <footer class="bksizelarge">
+                <div>
+                    <a href="#"><img class="logoevernote" src="images/blank.gif"></a>
+                </div> <!-- Row -->
                 <div class="row"> <!-- Row -->
                     <div class="col col-2">Col 1</div>
                     <div class="col col-2">Col 2</div>

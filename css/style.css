@@ -8,24 +8,43 @@ div {
 }
 
 header {
-    background-color: white;
+    background-color: #eee;
     height: 110px;
-    display: flex;
     justify-content: space-between;
 }
 
 main{
-    height: 530px;
+    /* height: 530px; */
+    padding: 24px;
+    justify-content: space-around;
 }
 
 p {
     font-size: 1em;
-    line-height: 0.5em;
+    line-height: 1.5em;
+}
+
+.logoevernote {
+    background-image: url("../images/evernote_logo.png");
+    width: 200px;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+.txtjustify {
+    text-align: justify; 
 }
 
 .col {
     /* float: left; */
-    padding: 16px;
+    padding: 16px 48px;
     /* width: 30%; */
 }
 
@@ -49,8 +68,40 @@ li a {
     padding: 4px 8px;
 }
 
+button {
+
+}
+
+.button-outline {
+    display: inline-block;
+    height: 40px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid black;
+    padding: 0 10;
+}
+
 a {
-    padding: 0px;
+    /* padding: 0px; */
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+a:active {
+    color: blue;
 }
 
 .bkcolorgray{
@@ -58,10 +109,11 @@ a {
 }
 
 .bksizelarge{
-    height: 750px;
+    /* height: 750px; */
 }
 
 footer{
+    background-color: #eee;
     height: 850px;
 }
 
